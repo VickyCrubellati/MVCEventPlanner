@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRHH | MVC Event Planner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="../CSS/prueba.css">
+    
+</head>
+
+<body>
+    <header>
+        <section class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <a href="../index.html" class="logo">
+                        <img class="logoPrincipal" src="../multimedia/MVC.png" alt="Logo" />
+                    </a>
+                </div>
+
+                <div class="col-md-9">
+                    <nav class="container">
+                        <ul class="nav">
+                            <li class="nav-item menuPrincipal">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+
+                            <li class="nav-item menuPrincipal">
+                                <a class="nav-link" href="../secciones/nosotros.html">¿Quiénes somos?</a>
+                            </li>
+
+                            <li class="nav-item menuPrincipal">
+                                <a class="nav-link" href="../secciones/servicios.html">Servicios</a>
+                            </li>
+
+                            <li class="nav-item menuPrincipal">
+                                <a class="nav-link" href="../secciones/galeria.html">Galería</a>
+                            </li>
+
+                            <li class="nav-item menuPrincipal">
+                                <a class="nav-link" href="../secciones/recursosHumanos.html">RRHH</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+<!-- EXTEND -->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12 recursosHumanos">
+                <h1 class="recursosHumanos">Recursos Humanos</h1>
+                <p class="recursosHumanos--nuevo">
+                    Si queres ser parte de nuestro equipo, dejanos tu CV
+                </p>
+            </div>
+
+            <form class="col-12" action="#">
+                <div class="form-group divisionInput">
+                    <label for="nombre">Nombre*</label>
+                    <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="nombre">
+                </div>
+
+                <div class="form-group divisionInput">
+                    <label for="nombre">Apellido*</label>
+                    <input type="apellido" class="form-control" id="apellido" placeholder="Ingrese su apellido"
+                        name="apellido">
+                </div>
+
+                <div class="form-group divisionInput">
+                    <label for="email">Email*</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email" name="email">
+                </div>
+
+                <div>
+                    <input type="file" placeholder="Cargue su CV">
+                </div>
+
+                <div class="divisionInput--nuevo">
+                    <textarea class="letraIconos" name="mensaje" id="mensaje" cols="50"
+                        rows="5">Ingrese su mensaje</textarea>
+                </div>
+
+                <input type="reset">
+                <input type="submit">
+
+        </div>
+    </section>
+    </form>
+
+    <!-- MIXINS -->
+
+    <footer class="piePagina">
+
+            <a href="mailto:info@mvceventplanner.com.ar">Email: info@mvceventplanner.com.ar</a>
+
+            <a href="tel:+54 11 4867 9000">Teléfono: +54 11 4867 9000</a>
+
+        <p>Dirección: Av. Coronel Diaz 1890, Ciudad Autónoma de Buenos Aires, Argentina</p>
+
+        <p>@ 2021 MVC Event Planner - Events & Travel Group – AT: Legajo: xxxxx –| Copyright | All Rights Reserved</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

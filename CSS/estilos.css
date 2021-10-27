@@ -1,0 +1,298 @@
+html {
+    font-size: 62.5%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:ital,wght@0,600;1,300&display=swap');
+body{
+    background-color:#878561;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+    /* INDEX */
+
+.logoPrincipal {
+    height: 220px;
+    width: auto;
+    }
+
+.imagenPrincipal {
+    width: 1000px;
+    height: 300px;
+    margin-left: 200px;
+    }
+
+.menuPrincipal {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.menuPrincipal li:hover ul{
+    display: block;
+    text-align: center;
+}
+
+.menuPrincipal a{
+    color: white;
+    text-decoration: none;
+}
+
+.menuPrincipal a:hover{
+    color: black;
+}
+
+.descripcionEventos{
+    margin-top: 260px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+    .ejemploEventos{
+    color: white;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    border-top: outset 5px white;
+    border-right: outset 3px white;
+    border-bottom: outset 5px white;
+    border-left: outset 3px white;
+    width: 600px;
+    text-align: center;
+}
+
+.padre-flex{
+        color: white;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 50px;
+        padding-top: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        grid-column-gap: 20px;
+}
+
+.padreHijo{
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-column-gap: 50px 40px 40px 50px 60px;
+}
+
+.nuestraActividad {
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+/* NOSOTROS */
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosotrosFlex{
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+.cajaContenedora_hijo1 {
+    width: 500px;
+    margin: 20px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cajaContenedora_hijo2 {
+    margin: 10px;
+    padding: 10px;
+    width: 1300px;
+    font-size: small;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* GALERIA */
+
+.padre{
+margin: 40px;
+display: grid;
+width: 95%;
+grid-template-columns: 300px 300px 300px;
+grid-column-gap: 50px;
+grid-template-rows: 150px 200px;
+grid-row-gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+/* SERVICIOS */
+
+h2 {   
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listadoServicios{
+    color:white;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 30px;
+}
+
+.nuestrosServicios {
+    height: 400px;
+    display: grid;
+}
+
+.listadoServicio{
+    font-size: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: 150px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+.titulosPrincipales {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* RECURSOS HUMANOS */
+
+form {
+    text-align: center;
+}
+
+.divisionInput {
+    margin-left: 3px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    margin-left: 3px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recursosHumanos {
+    margin-left: 3px;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.letraIconos{
+    font-size: 1.5rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* FOOTER */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    margin: 10px;
+    padding: 20px;
+}
+
+.piePagina {
+    color: white;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* GRID INDEX
+
+.gridBody {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat (6, 4fr);
+    grid-template-areas: 
+    "header header"
+    "principal principal"
+    "eventos eventos"
+    "quienes quienes"
+    "descripcion descripcion"
+    "footer footer"
+}
+
+.encabezado {
+    grid-area: header;
+}
+
+.descripcionPrincipal {
+    grid-area: principal;
+}
+
+.descripcionEvento {
+    grid-area: eventos;
+}
+
+.padre-flex {
+    grid-area: quienes;
+}
+
+.historia {
+    grid-area: descripcion;
+}
+
+footer {
+    grid-area: footer;
+    align-content: end;
+} */
+
